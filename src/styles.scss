@@ -9,5 +9,16 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background: $gray-900;
+  background: $gray-800;
+  color: $gray-50;
 }
+
+.flex {
+  display: flex;
+  
+  &-center {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
